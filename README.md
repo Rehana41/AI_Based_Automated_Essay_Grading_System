@@ -71,7 +71,8 @@ Trained model is saved to models/bilstm_essay_model.pt.
 
 ### ✅ Steps
 ```bash
-Place your essays.csv file into data/processed/.
+Place your essays.csv file into data/processed/ as data/processed/essays 
+essays.csv dataset:- https://drive.google.com/file/d/1v-iKbOcuJc4McFXWca5o-ntGCtQUbDe-/view?usp=sharing
 
 Install requirements: pip install torch pandas sklearn
 
