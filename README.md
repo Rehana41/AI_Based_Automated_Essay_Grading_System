@@ -70,14 +70,14 @@ Trained model is saved to models/bilstm_essay_model.pt.
 
 ### ✅ Steps
 ```bash
-Place your essays.csv file into data/processed/ as data/processed/essays 
+1. Place your essays.csv file into data/processed/ as data/processed/essays 
 
-Install requirements: pip install torch pandas sklearn
+2. Install requirements: pip install torch pandas sklearn
 
-Run training:
+3. Run training:
 python src/train_model.py
 
-Predictions: After training, use the model for prediction
+4. Predictions: After training, use the model for prediction
 python webapp/app.py
 ```
 ### 🔧 Example Input (from CSV)
