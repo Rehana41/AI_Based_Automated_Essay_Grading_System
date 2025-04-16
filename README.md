@@ -1,4 +1,6 @@
 # 📚 AI-Based Essay Grading System
+![essaypic](https://github.com/user-attachments/assets/780fe86d-965f-44a4-b07b-f06ded899b14)
+
 ## 📌 Overview
 The AI-Based Essay Grading System is a Deep Learning-powered project that evaluates and predicts scores for student essays. This system leverages a BiLSTM (Bidirectional Long Short-Term Memory) model to assess essay quality based on content, grammar, and structure. It is trained on a curated academic essay dataset and can be easily extended for real-world automated scoring use cases.
 
