@@ -75,10 +75,10 @@ Trained model is saved to models/bilstm_essay_model.pt.
 2. Install requirements: pip install torch pandas sklearn
 
 3. Run training:
-python src/train_model.py
+   python src/train_model.py
 
 4. Predictions: After training, use the model for prediction
-python webapp/app.py
+   python webapp/app.py
 ```
 ### 🔧 Example Input (from CSV)
 
