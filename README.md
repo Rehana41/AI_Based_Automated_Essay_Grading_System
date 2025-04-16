@@ -23,8 +23,7 @@ The AI-Based Essay Grading System is a Deep Learning-powered project that evalua
 - **Jupyter Notebook / Colab**: For running and visualizing training progress.
 
 ## 🗂️ Dataset
-Format: CSV file with two columns: essay (text) and score (float/int).
-Dataset link(essays.csv):- https://drive.google.com/file/d/1v-iKbOcuJc4McFXWca5o-ntGCtQUbDe-/view?usp=drive_link
+Dataset link(essays.csv):- https://drive.google.com/file/d/1v-iKbOcuJc4McFXWca5o-ntGCtQUbDe-/view?usp=drive_link .Format: CSV file with two columns: essay (text) and score (float/int).
 
 ## 🧠 Model Architecture
 - **Embedding Layer**: Converts ASCII-tokenized characters to vector embeddings.
