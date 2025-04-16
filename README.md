@@ -68,18 +68,9 @@ Trained model is saved to models/bilstm_essay_model.pt.
 - **Training Time**: Varies by dataset size
 
 ## 🌐 How to Run
-**📁 File Structure**
-project/
-├── src/
-│   └── predict.py
-    └── train_model.py
-├── data/
-│   └── processed/
-│       └── essays.csv  <-- Your uploaded dataset
-├── models/
-│   └── bilstm_essay_model.pt (generated after training)
 
-✅ Steps
+### ✅ Steps
+```bash
 Place your essays.csv file into data/processed/.
 
 Install requirements: pip install torch pandas sklearn
@@ -88,12 +79,14 @@ Run training:
 python src/train_model.py
 
 Predictions: After training, use the model for prediction 
+```
+### 🔧 Example Input (from CSV)
 
-## 🔧 Example Input (from CSV)
-essay,score
+```bash
+essay,score 
 "Mobile phones can help students study more efficiently...",8.0
 "Phone is good. Phone bad. School maybe yes or no phone...",3.5
-
+```
 
 
 
