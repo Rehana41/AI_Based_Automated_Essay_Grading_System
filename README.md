@@ -78,7 +78,8 @@ Install requirements: pip install torch pandas sklearn
 Run training:
 python src/train_model.py
 
-Predictions: After training, use the model for prediction 
+Predictions: After training, use the model for prediction
+python webapp/app.py
 ```
 ### 🔧 Example Input (from CSV)
 
